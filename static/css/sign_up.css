@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+    background: #fff;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+    padding-top: 1.5rem;
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    color: #da5767;
+    text-decoration: none;
+}
+
+.card {
+    border: 0.40rem solid #f8f9fa;
+    top: 10%;
+}
+
+.form-control {
+    background-color: #f8f9fa;
+    padding: 20px;
+    padding: 25px 15px;
+    margin-bottom: 1.3rem;
+}
+
+.form-control:focus {
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #099bc7;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn, btn-outline-primary {
+    color: white !important;
+    padding: 0.6rem 1.2rem;
+    background: #0d6efd;
+    border: 2px solid #0d6efd;
+}
+
+.btn-primary:hover, .btn-outline-primary:hover {
+    background-color: #589afc;
+    border-color: #589afc;
+    transition: .3s;
+}
